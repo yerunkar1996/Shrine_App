@@ -1,0 +1,6 @@
+.navBg{
+    background-color:rgb(97, 54, 255);
+}
+.navBg a, button{
+    color: aliceblue;
+}

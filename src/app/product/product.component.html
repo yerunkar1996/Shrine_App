@@ -1,0 +1,9 @@
+<div class="container">
+    <div class="prod">
+        <div class="cart-item" *ngFor="let data of ProductDetails">
+            <img [src]=data.url alt="prodImg" >
+            <h4>{{data.itemName}}</h4>
+            <h5>${{data.itemPrice}}</h5>
+        </div>
+    </div>
+</div>
